@@ -13,6 +13,5 @@ switch (argv.env) {
 
 }
 
-console.log(`you are in ${argv.env} mode`);
 
 module.exports = require( path.resolve(__dirname,'cfg',env) );
